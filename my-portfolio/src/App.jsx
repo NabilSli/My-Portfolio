@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+
+import profilePicture from "./assets/me.png";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+      <section className="header">
+        <img class="profile-picture" src={profilePicture} alt="Nabil Slimani" />
+        <h1>Hey 👋 I'm Nabil</h1>
+        <p className="read-the-docs">
+          Full stack developer, skilled in React, Node.js, Express, MongoDB.
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </section>
+      <section className="cta">
+        <button className="button-projects">Projects</button>
+      </section>
+      <section className="tech-stack">
+        <img
+          src="https://img.shields.io/badge/-HTML5-000?logo=html5"
+          alt="HTML5"
+        />
+        <img
+          src="https://img.shields.io/badge/-JavaScript-000?logo=javascript"
+          alt="JavaScript"
+        />
+        <img
+          src="https://img.shields.io/badge/-TypeScript-000?logo=typescript"
+          alt="TypeScript"
+        />
+        <img
+          src="https://img.shields.io/badge/-React-000?logo=react"
+          alt="React"
+        />
+      </section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
