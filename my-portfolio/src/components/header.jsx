@@ -1,3 +1,7 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { home, projects } from "../routes";
+
 function Header() {
   return (
     <header className="header">
@@ -5,10 +9,14 @@ function Header() {
       <nav>
         <ul className="navMenu">
           <li>
-            <p className="navAnchor">Accueil</p>
+            <NavLink to={home.path} activeclassname="activeLink">
+              Accueil
+            </NavLink>
           </li>
           <li>
-            <p className="navAnchor">Mes Projets</p>
+            <NavLink to={projects.path} className="navAnchor">
+              Mes Projets
+            </NavLink>
           </li>
           <li>
             <p className="navAnchor">Contact</p>
