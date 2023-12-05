@@ -1,4 +1,4 @@
-import profilePicture from "./assets/me.png";
+import profilePicture from "../assets/me.png";
 
 function Description() {
   <section className="header">
