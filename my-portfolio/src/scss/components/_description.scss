@@ -1,9 +1,16 @@
-.descriptionTexte {
-  color: #c3c4c7;
-  font-size: 26px;
-  font-weight: 400;
+.description {
+  margin: 100px 0;
 }
 
-.texteSection {
-  margin-bottom: 50px;
+.profilePicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.descriptionTexte {
+  color: #c3c4c7;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 10%;
 }

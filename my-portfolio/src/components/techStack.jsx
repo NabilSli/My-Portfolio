@@ -1,6 +1,6 @@
 function TechStack() {
   return (
-    <section className="tech-stack">
+    <section className="techStack">
       <img
         src="https://img.shields.io/badge/-HTML5-000?logo=html5"
         alt="HTML5"
