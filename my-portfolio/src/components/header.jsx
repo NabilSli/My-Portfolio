@@ -19,10 +19,10 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <p className="navAnchor">Contact</p>
+            <NavLink className="navAnchor">Contact</NavLink>
           </li>
           <li>
-            <p className="navAnchor">CV</p>
+            <NavLink className="navAnchor">CV</NavLink>
           </li>
         </ul>
       </nav>
