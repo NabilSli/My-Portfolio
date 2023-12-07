@@ -8,7 +8,7 @@ function Description() {
         src={profilePicture}
         alt="Nabil Slimani"
       />
-      <h1>Hey 👋 I&apos;m Nabil</h1>
+      <h1>salut👋 Moi c&apos;est Nabil</h1>
       <article className="texteSection">
         <p className="descriptionTexte">
           Passionné par la technologie, j&apos;ai récemment plongé dans le

@@ -5,7 +5,7 @@ import Footer from "./footer";
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className="pageContainer">
       <Header />
       <section className="bodyContainer">{children}</section>
       <Footer />
