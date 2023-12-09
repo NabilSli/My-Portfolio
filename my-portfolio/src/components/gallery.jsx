@@ -22,15 +22,17 @@ export default function Gallery() {
 
   return (
     <section className="gallery">
-      {projects.map((project) => (
-        <Card
-          icon={project.icon}
-          title={project.title}
-          description={project.description}
-          key={project.id}
-          id={project.id}
-        />
-      ))}
+      <div className="cardsGallery">
+        {projects.map((project) => (
+          <Card
+            icon={project.icon}
+            title={project.title}
+            description={project.description}
+            key={project.id}
+            id={project.id}
+          />
+        ))}
+      </div>
     </section>
   );
 }

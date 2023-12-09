@@ -1,7 +1,7 @@
 @import "../variable";
 
 .cardContainer {
-  width: 100%;
+  max-width: 340px;
   border-radius: 5px;
   height: 255px;
   display: flex;
@@ -32,11 +32,5 @@
 .gallery {
   a {
     text-decoration: none;
-  }
-}
-
-@media (min-width: 769px) {
-  .cardContainer {
-    max-width: 340px;
   }
 }
