@@ -1,0 +1,42 @@
+@import "../variable";
+
+.cardContainer {
+  width: 100%;
+  border-radius: 5px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding: 15px 20px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  border: solid 1px #242424;
+  h2 {
+    color: #c3c4c7;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+    text-decoration: none;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  p {
+    color: #c3c4c7;
+  }
+}
+
+.gallery {
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .cardContainer {
+    max-width: 340px;
+  }
+}
