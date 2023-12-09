@@ -3,41 +3,47 @@
     "id": "1",
     "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
     "pictures": "",
-    "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS."
+    "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+    "icon": "public/images/icon1.svg"
   },
 
   {
     "id": "2",
     "title": "Créez une page web dynamique avec JavaScript",
     "pictures": "",
-    "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d’une API."
+    "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d’une API.",
+    "icon": "public/images/icon2.svg"
   },
 
   {
     "id": "3",
     "title": "Planifiez le développement du site de votre client",
     "pictures": "",
-    "description": "J'ai mener, préparer et planifier le projet de développement d’un site."
+    "description": "J'ai mener, préparer et planifier le projet de développement d’un site.",
+    "icon": "public/images/icon3.svg"
   },
 
   {
     "id": "4",
     "title": "Débuggez et optimisez un site de photographe",
     "pictures": "",
-    "description": "J'ai revu le code du portfolio d'une cliente pour optimiser son référencement SEO et débugger les fonctionnalités qui en avaient besoin."
+    "description": "J'ai revu le code du portfolio d'une cliente pour optimiser son référencement SEO et débugger les fonctionnalités qui en avaient besoin.",
+    "icon": "public/images/icon4.svg"
   },
 
   {
     "id": "5",
     "title": "Créez une application web de location immobilière avec React",
     "pictures": "",
-    "description": "J'ai développer une nouvelle plateforme web de location d’appartements entre particuliers."
+    "description": "J'ai développer une nouvelle plateforme web de location d’appartements entre particuliers.",
+    "icon": "public/images/icon5.svg"
   },
 
   {
     "id": "6",
     "title": "Développez le back-end d'un site de notation de livres",
     "pictures": "",
-    "description": "J'ai développer le Backend d'un site de référencement et de notation de livres.."
+    "description": "J'ai développer le Backend d'un site de référencement et de notation de livres..",
+    "icon": "public/images/icon6.svg"
   }
 ]
