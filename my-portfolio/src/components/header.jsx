@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { home, projects } from "../routes";
+import { home, projects, cv } from "../routes";
 
 function Header() {
   return (
@@ -14,15 +14,12 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to={projects.path} className="navAnchor">
-              Mes Projets
-            </NavLink>
-          </li>
-          <li>
             <NavLink className="navAnchor">Contact</NavLink>
           </li>
           <li>
-            <NavLink className="navAnchor">CV</NavLink>
+            <NavLink to={cv.path} className="navAnchor">
+              CV
+            </NavLink>
           </li>
         </ul>
       </nav>
