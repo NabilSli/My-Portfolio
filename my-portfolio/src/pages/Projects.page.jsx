@@ -22,7 +22,6 @@ export default function Projects() {
     return navigate("/404");
   }
 
-  // TODO: merge this with "useHousings" function hook a "useHousingById" hook
   const currentProject = projects.find((project) => project.id === id);
   if (!currentProject || currentProject.length <= 0) {
     return navigate("/404");
@@ -42,7 +41,9 @@ export default function Projects() {
             <DisplayPictures pictures={picture} key={picture} />
           ))}
         </div>
-        <div className="projectDescription"></div>
+        <div className="projectDescription">
+          <p>{description}</p>
+        </div>
       </div>
     </section>
   );
