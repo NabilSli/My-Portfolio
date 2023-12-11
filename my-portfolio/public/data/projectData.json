@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-    "pictures": "",
+    "pictures": ["", "1"],
     "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     "icon": "/images/icon1.svg"
   },
@@ -10,7 +10,7 @@
   {
     "id": "2",
     "title": "Créez une page web dynamique avec JavaScript",
-    "pictures": "",
+    "pictures": ["", "1"],
     "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d’une API.",
     "icon": "/images/icon2.svg"
   },
@@ -18,7 +18,7 @@
   {
     "id": "3",
     "title": "Planifiez le développement du site de votre client",
-    "pictures": "",
+    "pictures": ["", "1"],
     "description": "J'ai mener, préparer et planifier le projet de développement d’un site.",
     "icon": "/images/icon3.svg"
   },
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "title": "Débuggez et optimisez un site de photographe",
-    "pictures": "",
+    "pictures": ["", "1"],
     "description": "J'ai revu le code du portfolio d'une cliente pour optimiser son référencement SEO et débugger les fonctionnalités qui en avaient besoin.",
     "icon": "/images/icon4.svg"
   },
@@ -34,7 +34,7 @@
   {
     "id": "5",
     "title": "Créez une application web de location immobilière avec React",
-    "pictures": "",
+    "pictures": ["", "1"],
     "description": "J'ai développer une nouvelle plateforme web de location d’appartements entre particuliers.",
     "icon": "/images/icon5.svg"
   },
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "title": "Développez le back-end d'un site de notation de livres",
-    "pictures": "",
+    "pictures": ["", "1"],
     "description": "J'ai développer le Backend d'un site de référencement et de notation de livres..",
     "icon": "/images/icon6.svg"
   }
