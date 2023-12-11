@@ -36,7 +36,7 @@ export default function Projects() {
         <h2 className="projectTitle">{title}</h2>
       </div>
       <div className="projectBody">
-        <div className="pojectPictures">
+        <div className="displayProjects">
           {pictures.map((picture) => (
             <DisplayPictures pictures={picture} key={picture} />
           ))}
