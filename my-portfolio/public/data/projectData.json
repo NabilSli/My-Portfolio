@@ -7,6 +7,11 @@
       "/src/assets/projectsPictures/P2-booki-mobile.webp",
       "/src/assets/projectsPictures/P2-booki-tablette.webp"
     ],
+    "miniPictures": [
+      "/src/assets/projectsPictures/P2-booki-desktop-mini.webp",
+      "/src/assets/projectsPictures/P2-booki-mobile-mini.webp",
+      "/src/assets/projectsPictures/P2-booki-tablette-mini.webp"
+    ],
     "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     "icon": "/images/icon1.svg"
   },
