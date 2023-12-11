@@ -8,7 +8,7 @@ function Footer() {
             className="linkedinLink"
             href="https://www.linkedin.com/in/nabil-slimani-620848272/"
           >
-            Linkedin
+            Linkedin{" "}
           </a>
           /
         </p>
@@ -16,7 +16,6 @@ function Footer() {
           <a className="githubLink" href="hhttps://github.com/NabilSli">
             Github
           </a>
-          /
         </p>
       </div>
     </footer>
