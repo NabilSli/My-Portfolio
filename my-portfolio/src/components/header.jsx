@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { home, projects, cv } from "../routes";
 
+import ContactModal from "./contacModal";
+
 function Header() {
   return (
     <header className="header">
@@ -14,7 +16,7 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink className="navAnchor">Contact</NavLink>
+            <ContactModal />
           </li>
           <li>
             <NavLink to={cv.path} className="navAnchor">
