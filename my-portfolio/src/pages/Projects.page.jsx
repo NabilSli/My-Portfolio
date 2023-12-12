@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 import { useParams, useNavigate } from "react-router-dom";
 
-import fetchData from "../components/fetchData";
+import useProjects from "../components/fetchData";
 import DisplayPictures from "../components/displayPictures";
 
 export default function Projects() {
   const { id } = useParams();
-  const { error, isLoading, projects } = fetchData();
+  const { error, isLoading, projects } = useProjects();
   const navigate = useNavigate();
 
   if (error) {
@@ -26,9 +26,8 @@ export default function Projects() {
   if (!currentProject || currentProject.length <= 0) {
     return navigate("/404");
   }
-  const title = currentProject.title;
-  const pictures = currentProject.pictures;
-  const description = currentProject.description;
+
+  const { title, pictures, description } = currentProject;
 
   return (
     <section className="projectSection">

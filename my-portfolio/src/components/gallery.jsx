@@ -25,7 +25,7 @@ export default function Gallery() {
       <div className="cardsGallery">
         {projects.map((project) => (
           <Card
-            icon={project.icon}
+            iconSrc={project.iconSrc}
             title={project.title}
             description={project.description}
             key={project.id}

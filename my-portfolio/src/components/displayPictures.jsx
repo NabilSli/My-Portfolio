@@ -5,7 +5,7 @@ const DisplayPictures = ({ pictures }) => {
         <img
           className="projectPictures"
           src={pictures}
-          alt="image du projet presenter"
+          alt="image du projet presenté"
         ></img>
       </a>
     </div>
