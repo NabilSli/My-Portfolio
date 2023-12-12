@@ -1,7 +1,7 @@
 const DisplayPictures = ({ pictures }) => {
   return (
     <div className="pictureContainer">
-      <a>
+      <a href={pictures} target="_blank" rel="noreferrer">
         <img
           className="projectPictures"
           src={pictures}
