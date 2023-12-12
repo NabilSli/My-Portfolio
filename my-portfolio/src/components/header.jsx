@@ -1,6 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { home, projects, cv } from "../routes";
+import { home, cv } from "../routes";
 
 import ContactModal from "./contacModal";
 
