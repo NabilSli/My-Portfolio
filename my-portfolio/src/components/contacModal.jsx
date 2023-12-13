@@ -1,25 +1,31 @@
-import React, { useState } from "react";
+// eslint-disable-next-line no-unused-vars
+import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactModal = () => {
+  const modalRef = useRef(null);
   const [showModal, setShowModal] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_5xxbpd8",
+        "template_9a0udzr",
         {
-          to_name: name,
+          from_name: name,
           from_email: email,
           message: message,
         },
-        "YOUR_USER_ID"
+        "Hfarmy03JYAWYCtcr"
       )
       .then(
         (response) => {
@@ -39,9 +45,19 @@ const ContactModal = () => {
     setMessage("");
   };
 
-  const handleCloseModal = () => {
-    setShowModal(false);
-  };
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (modalRef.current && !modalRef.current.contains(e.target)) {
+        setShowModal(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div>
@@ -52,7 +68,7 @@ const ContactModal = () => {
       </li>
       {showModal && (
         <div className="modal">
-          <div className="modalContent">
+          <div className="modalContent" ref={modalRef}>
             <span className="close" onClick={handleCloseModal}>
               &times;
             </span>
