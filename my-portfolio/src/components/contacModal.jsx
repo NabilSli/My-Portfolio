@@ -1,16 +1,23 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Modal, Button } from "antd";
 
 const ContactModal = () => {
-  const modalRef = useRef(null);
-  const [showModal, setShowModal] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleCloseModal = () => {
-    setShowModal(false);
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
   };
 
   const handleSubmit = (e) => {
@@ -45,33 +52,21 @@ const ContactModal = () => {
     setMessage("");
   };
 
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (modalRef.current && !modalRef.current.contains(e.target)) {
-        setShowModal(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
   return (
     <div>
-      <li>
-        <button className="navAnchor" onClick={() => setShowModal(true)}>
-          Contact
-        </button>
+      <li className="modalButton">
+        <Button className="contactButton" type="text" onClick={showModal}>
+          CONTACT
+        </Button>
       </li>
-      {showModal && (
-        <div className="modal">
-          <div className="modalContent" ref={modalRef}>
-            <span className="close" onClick={handleCloseModal}>
-              &times;
-            </span>
+      <div className="modal">
+        <Modal
+          title="Formulaire de Contact"
+          open={isModalOpen}
+          onOk={handleOk}
+          onCancel={handleCancel}
+        >
+          <div className="modalContent">
             <h2>Envoyer un email</h2>
             <form onSubmit={handleSubmit}>
               <label>Nom</label>
@@ -97,8 +92,8 @@ const ContactModal = () => {
               <button type="submit">Envoyer</button>
             </form>
           </div>
-        </div>
-      )}
+        </Modal>
+      </div>
     </div>
   );
 };

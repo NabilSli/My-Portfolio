@@ -16,9 +16,9 @@ function Header() {
               Accueil
             </NavLink>
           </li>
-          <li>
-            <ContactModal />
-          </li>
+
+          <ContactModal />
+
           <li>
             <NavLink to={cv.path} className="navAnchor">
               CV

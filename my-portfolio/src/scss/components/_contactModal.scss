@@ -1,5 +1,15 @@
-.modal {
-  height: 300px;
-  height: 500px;
-  border: solid 2px red;
+.contactButton {
+  color: #c3c4c7;
+}
+
+.contactButton span:hover {
+  color: #f6f7f7;
+}
+
+.modalContent {
+  color: #c3c4c7;
+  form {
+    display: flex;
+    flex-direction: column;
+  }
 }
