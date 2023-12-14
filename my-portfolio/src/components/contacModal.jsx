@@ -55,7 +55,7 @@ const ContactModal = () => {
   return (
     <div>
       <li className="modalButton">
-        <Button className="contactButton" type="text" onClick={showModal}>
+        <Button className="contactButton" type="texte" onClick={showModal}>
           CONTACT
         </Button>
       </li>
@@ -65,6 +65,12 @@ const ContactModal = () => {
           open={isModalOpen}
           onOk={handleOk}
           onCancel={handleCancel}
+          styles={{
+            header: { "background-color": "#1a1a1a" },
+            body: { "background-color": "#1a1a1a" },
+            footer: { "background-color": "#1a1a1a" },
+          }}
+          footer={[null]}
         >
           <div className="modalContent">
             <h2>Envoyer un email</h2>
@@ -75,6 +81,7 @@ const ContactModal = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
+                placeholder="John Doe"
               />
               <label>Email</label>
               <input
@@ -82,14 +89,18 @@ const ContactModal = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                placeholder="John.Doe@gmail.com"
               />
               <label>Message</label>
               <textarea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
+                placeholder="Votre message"
               />
-              <button type="submit">Envoyer</button>
+              <Button key="submit" type="text">
+                Envoyer
+              </Button>
             </form>
           </div>
         </Modal>
