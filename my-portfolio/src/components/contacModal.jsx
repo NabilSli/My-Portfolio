@@ -55,7 +55,7 @@ const ContactModal = () => {
   return (
     <div>
       <li className="modalButton">
-        <Button className="contactButton" type="texte" onClick={showModal}>
+        <Button className="contactButton" type="text" onClick={showModal}>
           CONTACT
         </Button>
       </li>
@@ -98,9 +98,7 @@ const ContactModal = () => {
                 required
                 placeholder="Votre message"
               />
-              <Button key="submit" type="text">
-                Envoyer
-              </Button>
+              <input type="submit" value="Envoyer" />
             </form>
           </div>
         </Modal>
