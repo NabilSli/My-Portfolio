@@ -29,6 +29,10 @@
   }
 }
 
+.pdfViewer {
+  margin-top: 100px;
+}
+
 .pageContainer {
   min-height: 100vh;
   position: relative;
@@ -56,4 +60,10 @@
   a:hover {
     color: #f6f7f7;
   }
+}
+
+.socialMediaLink {
+  display: flex;
+  flex-direction: row;
+  gap: 0px 10px;
 }

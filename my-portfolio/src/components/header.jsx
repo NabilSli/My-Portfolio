@@ -1,6 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { home, projects } from "../routes";
+import { home, cv } from "../routes";
+
+import ContactModal from "./contacModal";
 
 function Header() {
   return (
@@ -13,16 +16,13 @@ function Header() {
               Accueil
             </NavLink>
           </li>
+
+          <ContactModal />
+
           <li>
-            <NavLink to={projects.path} className="navAnchor">
-              Mes Projets
+            <NavLink to={cv.path} className="navAnchor">
+              CV
             </NavLink>
-          </li>
-          <li>
-            <NavLink className="navAnchor">Contact</NavLink>
-          </li>
-          <li>
-            <NavLink className="navAnchor">CV</NavLink>
           </li>
         </ul>
       </nav>
