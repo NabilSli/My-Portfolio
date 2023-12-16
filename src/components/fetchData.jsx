@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 
 // NOTE: preparing API integration by fetching the data with an async function
