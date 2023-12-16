@@ -14,7 +14,11 @@
   {
     "id": "2",
     "title": "Créez une page web dynamique avec JavaScript",
-    "pictures": ["", "1"],
+    "pictures": [
+      "/src/assets/projectsPictures/P3-Sophie_Bluel-home.WEBP",
+      "/src/assets/projectsPictures/P3-Sophie_Bluel-login.WEBP",
+      "/src/assets/projectsPictures/P3-Sophie_Bluel-modal.WEBP"
+    ],
     "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d’une API.",
     "iconSrc": "/images/icon2.svg"
   },
