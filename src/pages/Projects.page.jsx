@@ -27,7 +27,7 @@ export default function Projects() {
     return navigate("/404");
   }
 
-  const { title, pictures, description } = currentProject;
+  const { title, pictures, information } = currentProject;
 
   return (
     <section className="projectSection">
@@ -41,7 +41,7 @@ export default function Projects() {
           ))}
         </div>
         <div className="projectDescription">
-          <p>{description}</p>
+          <p>{information}</p>
         </div>
       </div>
     </section>
