@@ -14,3 +14,15 @@
     height: 30px;
   }
 }
+
+@media (max-width: 720px) {
+  .techStack {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    img {
+      width: 20%;
+    }
+  }
+}

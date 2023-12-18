@@ -11,3 +11,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
 }
+
+@media (max-width: 720px) {
+  .cardsGallery {
+    display: flex;
+    flex-direction: column;
+  }
+}
