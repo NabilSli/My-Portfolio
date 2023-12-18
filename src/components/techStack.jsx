@@ -12,12 +12,17 @@ function TechStack() {
         alt="JavaScript"
       />
       <img
-        src="https://img.shields.io/badge/-TypeScript-000?logo=typescript"
+        src="https://img.shields.io/badge/-NodeJS-000?logo=Node.js"
         alt="TypeScript"
       />
       <img
         src="https://img.shields.io/badge/-React-000?logo=react"
         alt="React"
+      />
+      <img src="https://img.shields.io/badge/-Sass-000?logo=Sass" alt="Sass" />
+      <img
+        src="https://img.shields.io/badge/-Express-000?logo=Express"
+        alt="Express"
       />
     </section>
   );
