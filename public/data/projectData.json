@@ -8,7 +8,8 @@
       "/src/assets/projectsPictures/P2-booki-desktop.webp"
     ],
     "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
-    "iconSrc": "/images/icon1.svg"
+    "iconSrc": "/images/icon1.svg",
+    "information": "L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l'UI designer. "
   },
 
   {
@@ -19,8 +20,9 @@
       "/src/assets/projectsPictures/P3-Sophie_Bluel-modal.WEBP",
       "/src/assets/projectsPictures/P3-Sophie_Bluel-login.WEBP"
     ],
-    "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d’une API.",
-    "iconSrc": "/images/icon2.svg"
+    "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d'une API.",
+    "iconSrc": "/images/icon2.svg",
+    "information": "J'ai travailler comme développeur front-end pour l'agence ArchiWebos. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyé en renfort comme développeur front-end d'une équipe qui travaille sur la conception du site portfolio d'une architecte d'intérieur. J'ai du developper la page de présentation des travaux de l'architecte, la page de connexion de l'administrateur du site, la modale permettant d'uploader de nouveaux médias"
   },
 
   {
@@ -31,8 +33,9 @@
       "/src/assets/projectsPictures/P4-MenuMAKER-planification.WEBP",
       "/src/assets/projectsPictures/P4-MenuMAKER-tech_specification.WEBP"
     ],
-    "description": "J'ai mener, préparer et planifier le projet de développement d’un site.",
-    "iconSrc": "/images/icon3.svg"
+    "description": "J'ai mener, préparer et planifier le projet de développement d'un site.",
+    "iconSrc": "/images/icon3.svg",
+    "information": "Je suis développeur front-end au sein de l'agence Webgencia. J'ai mener, préparer et planifier le projet de développement d'un site. Qwenta, un de vos clients, souhaite faire développer un “Menu Maker”. Il s'agit d'un site permettant aux restaurateurs d'afficher et de mettre en page leurs menus facilement, en quelques clics. C'est l'occasion pour vous de mettre en place une méthodologie de travail agile"
   },
 
   {
@@ -44,7 +47,8 @@
       "/src/assets/projectsPictures/P5-portfolio-JS-wave.webp"
     ],
     "description": "J'ai revu le code du portfolio d'une cliente pour optimiser son référencement SEO et débugger les fonctionnalités qui en avaient besoin.",
-    "iconSrc": "/images/icon4.svg"
+    "iconSrc": "/images/icon4.svg",
+    "information": "Je suis développeur freelance, et je décide de proposer mes services d'optimisation SEO à une cliente. Pour résumer le cadre de ma mission, je vais: faire une optimisation globale du site, tant sur les performances que sur le SEO ; mettre en place le référencement local en utilisant Schema.org ; ajouter les metas pour les réseaux sociaux ; faire les modifications liées à l'accessibilité du site ; produire un rapport d'optimisation présentant toutes vos actions et leur impact."
   },
 
   {
@@ -55,8 +59,9 @@
       "/src/assets/projectsPictures/P6-Kasa-housing.webp",
       "/src/assets/projectsPictures/P6-Kasa-collapse.webp"
     ],
-    "description": "J'ai développer une nouvelle plateforme web de location d’appartements entre particuliers.",
-    "iconSrc": "/images/icon5.svg"
+    "description": "J'ai développer une nouvelle plateforme web de location d'appartements entre particuliers.",
+    "iconSrc": "/images/icon5.svg",
+    "information": "Le site de Kasa a eu besoin d'une refonte totale pour passer à une stack complète en JavaScript avec NodeJS et React. J'ai démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)."
   },
 
   {
@@ -68,6 +73,7 @@
       "/src/assets/projectsPictures/P7-Backend-database.webp"
     ],
     "description": "J'ai développer le Backend d'un site de référencement et de notation de livres..",
-    "iconSrc": "/images/icon6.svg"
+    "iconSrc": "/images/icon6.svg",
+    "information": "J'ai developpé le Backend d'un site de notation de livres au nom de la chaîne de librairies 'Le Vieux Grimoire'. Le site permettra aux membres d'ajouter un nouveau livre et de mettre une note visible par le public.J'ai du crée une API respectant les spécification technique fournit par le développeur Frontend, respecter les bonnes pratiques du green codes et en sécurisant l'API et ses routes pour protéger la base de donnée."
   }
 ]
