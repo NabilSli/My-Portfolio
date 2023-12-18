@@ -15,7 +15,7 @@ function Footer() {
           /
         </p>
         <p>
-          <a className="githubLink" href="hhttps://github.com/NabilSli">
+          <a className="githubLink" href="https://github.com/NabilSli">
             Github
           </a>
         </p>
