@@ -18,7 +18,7 @@ export default function Gallery() {
   }
 
   if (!projects || !projects.length) {
-    return <p>Aucun logements a afficher</p>;
+    return <p>Aucun projet a afficher</p>;
   }
 
   return (
