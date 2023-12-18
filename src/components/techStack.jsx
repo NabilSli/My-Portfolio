@@ -1,3 +1,5 @@
+import React from "react";
+
 function TechStack() {
   return (
     <section className="techStack">

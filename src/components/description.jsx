@@ -1,3 +1,4 @@
+import React from "react";
 import profilePicture from "../assets/me.png";
 
 function Description() {
