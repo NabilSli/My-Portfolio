@@ -3,9 +3,9 @@
     "id": "1",
     "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
     "pictures": [
-      "/src/assets/projectsPictures/P2-booki-mobile.webp",
-      "/src/assets/projectsPictures/P2-booki-tablette.webp",
-      "/src/assets/projectsPictures/P2-booki-desktop.webp"
+      "/images/P2-booki-mobile.webp",
+      "/images/P2-booki-tablette.webp",
+      "/images/P2-booki-desktop.webp"
     ],
     "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     "iconSrc": "/images/icon1.svg",
@@ -16,9 +16,9 @@
     "id": "2",
     "title": "Créez une page web dynamique avec JavaScript",
     "pictures": [
-      "/src/assets/projectsPictures/P3-Sophie_Bluel-home.WEBP",
-      "/src/assets/projectsPictures/P3-Sophie_Bluel-modal.WEBP",
-      "/src/assets/projectsPictures/P3-Sophie_Bluel-login.WEBP"
+      "/images/P3-Sophie_Bluel-home.WEBP",
+      "/images/P3-Sophie_Bluel-modal.WEBP",
+      "/images/P3-Sophie_Bluel-login.WEBP"
     ],
     "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d'une API.",
     "iconSrc": "/images/icon2.svg",
@@ -29,9 +29,9 @@
     "id": "3",
     "title": "Planifiez le développement du site de votre client",
     "pictures": [
-      "/src/assets/projectsPictures/P4-MenuMAKER-kanban.WEBP",
-      "/src/assets/projectsPictures/P4-MenuMAKER-planification.WEBP",
-      "/src/assets/projectsPictures/P4-MenuMAKER-tech_specification.WEBP"
+      "/images/P4-MenuMAKER-kanban.WEBP",
+      "/images/P4-MenuMAKER-planification.WEBP",
+      "/images/P4-MenuMAKER-tech_specification.WEBP"
     ],
     "description": "J'ai mener, préparer et planifier le projet de développement d'un site.",
     "iconSrc": "/images/icon3.svg",
@@ -42,9 +42,9 @@
     "id": "4",
     "title": "Débuggez et optimisez un site de photographe",
     "pictures": [
-      "/src/assets/projectsPictures/P5-portfolio-JS-home.webp",
-      "/src/assets/projectsPictures/P5-portfolio-JS-lighthouse.webp",
-      "/src/assets/projectsPictures/P5-portfolio-JS-wave.webp"
+      "/images/P5-portfolio-JS-home.webp",
+      "/images/P5-portfolio-JS-lighthouse.webp",
+      "/images/P5-portfolio-JS-wave.webp"
     ],
     "description": "J'ai revu le code du portfolio d'une cliente pour optimiser son référencement SEO et débugger les fonctionnalités qui en avaient besoin.",
     "iconSrc": "/images/icon4.svg",
@@ -55,9 +55,9 @@
     "id": "5",
     "title": "Créez une application web de location immobilière avec React",
     "pictures": [
-      "/src/assets/projectsPictures/P6-Kasa-home.webp",
-      "/src/assets/projectsPictures/P6-Kasa-housing.webp",
-      "/src/assets/projectsPictures/P6-Kasa-collapse.webp"
+      "/images/P6-Kasa-home.webp",
+      "/images/P6-Kasa-housing.webp",
+      "/images/P6-Kasa-collapse.webp"
     ],
     "description": "J'ai développer une nouvelle plateforme web de location d'appartements entre particuliers.",
     "iconSrc": "/images/icon5.svg",
@@ -68,9 +68,9 @@
     "id": "6",
     "title": "Développez le back-end d'un site de notation de livres",
     "pictures": [
-      "/src/assets/projectsPictures/P7-Backend-home.webp",
-      "/src/assets/projectsPictures/P7-Backend-book.webp",
-      "/src/assets/projectsPictures/P7-Backend-database.webp"
+      "/images/P7-Backend-home.webp",
+      "/images/P7-Backend-book.webp",
+      "/images/P7-Backend-database.webp"
     ],
     "description": "J'ai développer le Backend d'un site de référencement et de notation de livres..",
     "iconSrc": "/images/icon6.svg",
