@@ -11,11 +11,13 @@ This website is my first as a web developer👏. I did it during my OpenClassroo
 To realise this project there was some technical skill required, such as:
 
 - 🎯 `HTML`
+
   - Build the page using the right tags
   - Dividing the page into blocks from the wireframe to ensure a responsive design
   - Search engine optimization: use proper `HTML` semantics, fill `alt` properties
   - Code quality practices: write comments and indent code to make it maintainable and readable
   - Factorize with the right css class in order to not repeat the same code multiple time
+
 - 📚 `CSS`
 
   - Hierachise the code, starting with the desktop view as we are in a desktop-first project, going top to bottom and from the bigger to the smaller view
@@ -25,9 +27,11 @@ To realise this project there was some technical skill required, such as:
   - Use Sass library
 
 - 👨‍👩‍👧‍👧 `GIT`
+
   - Use `git` for versioning
   - Create branches and open pull requests for each new feature
   - Get reviewed and apply proper corrections
+
 - ✂️ `JavaScript`
 
   - Create functions to fetch data and show it dynamically
@@ -37,6 +41,7 @@ To realise this project there was some technical skill required, such as:
   - Add a service to send emails to my email account
 
 - 🔨 `React`
+
   - Divide every part of the page in components to call and reuse on demand
   - Use react-router to create multiple pages and link them together
   - Build pages by using components and the props needed
