@@ -9,7 +9,15 @@
     ],
     "description": "J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     "iconSrc": "/images/icon1.svg",
-    "information": "L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l'UI designer. "
+    "information": [
+      "Développement Frontend: Maîtrise des compétences essentielles du développement frontend pour la création de l'application Booki.",
+      "React.js: Utilisation avancée de React.js pour la construction d'interfaces utilisateur interactives et dynamiques.",
+      "Gestion d'État: Mise en œuvre de stratégies efficaces de gestion d'état pour optimiser les performances de l'application.",
+      "Intégration API: Intégration réussie d'API externes pour assurer un flux de données transparent et des fonctionnalités avancées.",
+      "Conception Responsive: Application des principes de conception responsive pour garantir une expérience utilisateur optimale sur tous les appareils.",
+      "Collaboration: Travail en équipe étroit pour assurer le succès du projet et l'atteinte des objectifs fixés.",
+      "Tests et Validation: Réalisation de tests approfondis et de validations pour garantir la stabilité et la qualité de l'application Booki."
+    ]
   },
 
   {
@@ -22,7 +30,17 @@
     ],
     "description": "J'ai réaliser plusieurs fonctionnalités et travaillé avec des données dynamiques provenant d'une API.",
     "iconSrc": "/images/icon2.svg",
-    "information": "J'ai travailler comme développeur front-end pour l'agence ArchiWebos. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyé en renfort comme développeur front-end d'une équipe qui travaille sur la conception du site portfolio d'une architecte d'intérieur. J'ai du developper la page de présentation des travaux de l'architecte, la page de connexion de l'administrateur du site, la modale permettant d'uploader de nouveaux médias"
+    "information": [
+      "Utilisation avancée de React.js pour développer une interface utilisateur élégante et interactive.",
+      "Personnalisation du portfolio pour refléter le style et la vision artistique de Sophie Bluel.",
+      "Mise en œuvre de galeries d'images attractives pour présenter diverses œuvres photographiques.",
+      "Optimisation des performances pour garantir un chargement rapide des images et une expérience utilisateur fluide.",
+      "Intégration de fonctionnalités de contact pour permettre aux visiteurs de se connecter avec la photographe.",
+      "Conception responsive pour s'adapter à différentes tailles d'écrans et assurer une navigation intuitive.",
+      "Optimisation de l'affichage des images pour garantir une qualité visuelle optimale sur tous les appareils.",
+      "Communication régulière pour comprendre les besoins et préférences de Sophie Bluel.",
+      "Intégration des retours et suggestions artistiques pour une représentation fidèle de son travail."
+    ]
   },
 
   {
@@ -35,7 +53,14 @@
     ],
     "description": "J'ai mener, préparer et planifier le projet de développement d'un site.",
     "iconSrc": "/images/icon3.svg",
-    "information": "Je suis développeur front-end au sein de l'agence Webgencia. J'ai mener, préparer et planifier le projet de développement d'un site. Qwenta, un de vos clients, souhaite faire développer un “Menu Maker”. Il s'agit d'un site permettant aux restaurateurs d'afficher et de mettre en page leurs menus facilement, en quelques clics. C'est l'occasion pour vous de mettre en place une méthodologie de travail agile"
+    "information": [
+      "Gestion Agile : Maîtrise des principes de planification et de gestion de projet Agile.",
+      "Scrum : Expérience pratique avec la méthodologie Scrum pour une exécution efficace des tâches.",
+      "Sprints : Participation active à la planification et à l'exécution des sprints pour assurer des livraisons itératives.",
+      "User Stories : Capacité à rédiger des user stories claires et concises pour définir les fonctionnalités du site.",
+      "Collaboration : Travail en équipe étroit, communication fluide et ajustements rapides en réponse aux changements.",
+      "Flexibilité : Adaptabilité aux modifications de priorités et capacité à maintenir un développement continu malgré les ajustements."
+    ]
   },
 
   {
@@ -48,7 +73,16 @@
     ],
     "description": "J'ai revu le code du portfolio d'une cliente pour optimiser son référencement SEO et débugger les fonctionnalités qui en avaient besoin.",
     "iconSrc": "/images/icon4.svg",
-    "information": "Je suis développeur freelance, et je décide de proposer mes services d'optimisation SEO à une cliente. Pour résumer le cadre de ma mission, je vais: faire une optimisation globale du site, tant sur les performances que sur le SEO ; mettre en place le référencement local en utilisant Schema.org ; ajouter les metas pour les réseaux sociaux ; faire les modifications liées à l'accessibilité du site ; produire un rapport d'optimisation présentant toutes vos actions et leur impact."
+    "information": [
+      "Maîtrise du débogage : Démonstration de compétences avancées en identification et résolution de problèmes sur le site du portfolio de Nina Carducci.",
+      "Dépannage : Identification et résolution réussies de divers bugs et erreurs affectant la fonctionnalité du portfolio.",
+      "Analyse du code : Réalisation d'une analyse approfondie du code pour localiser et rectifier les problèmes au sein de la base de code existante.",
+      "Tests avec Lighthouse et WAVE : Utilisation des outils de test Lighthouse et WAVE pour évaluer et améliorer les performances, l'accessibilité et la qualité globale du portfolio.",
+      "Implémentation du Green Code : Mise en place de pratiques Green Code en convertissant les images au format WebP pour réduire la taille des fichiers et les redimensionner, minimisant ainsi l'impact environnemental.",
+      "Collaboration : Travail collaboratif avec l'équipe de développement pour assurer un processus de débogage fluide et une résolution efficace des problèmes.",
+      "Contrôle de version : Utilisation de systèmes de contrôle de version pour gérer et suivre les modifications, garantissant une approche systématique du débogage.",
+      "Tests et Validation : Réalisation de tests approfondis et de validations, y compris avec Lighthouse et WAVE, pour garantir la stabilité et la fiabilité du site du portfolio débogué."
+    ]
   },
 
   {
@@ -61,7 +95,14 @@
     ],
     "description": "J'ai développer une nouvelle plateforme web de location d'appartements entre particuliers.",
     "iconSrc": "/images/icon5.svg",
-    "information": "Le site de Kasa a eu besoin d'une refonte totale pour passer à une stack complète en JavaScript avec NodeJS et React. J'ai démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)."
+    "information": [
+      "Maîtrise de React.js : Développement avancé avec React.js pour la création d'interfaces utilisateur dynamiques.",
+      "Gestion de l'état : Implémentation de stratégies efficaces de gestion de l'état pour améliorer les performances de l'application.",
+      "Architecture de composants : Conception et mise en œuvre d'une architecture modulaire basée sur des composants pour la maintenabilité et la scalabilité.",
+      "Intégration d'API : Intégration réussie d'API externes, assurant un flux de données continu et des fonctionnalités avancées.",
+      "Design Réactif : Application des principes de design réactif pour une expérience utilisateur optimale sur tous les appareils.",
+      "Débogage et Optimisation : Acquisition de compétences en débogage et optimisation des applications React pour une efficacité accrue."
+    ]
   },
 
   {
@@ -74,6 +115,15 @@
     ],
     "description": "J'ai développer le Backend d'un site de référencement et de notation de livres..",
     "iconSrc": "/images/icon6.svg",
-    "information": "J'ai developpé le Backend d'un site de notation de livres au nom de la chaîne de librairies 'Le Vieux Grimoire'. Le site permettra aux membres d'ajouter un nouveau livre et de mettre une note visible par le public.J'ai du crée une API respectant les spécification technique fournit par le développeur Frontend, respecter les bonnes pratiques du green codes et en sécurisant l'API et ses routes pour protéger la base de donnée."
+    "information": [
+      "Utilisation avancée de Node.js pour le développement backend.",
+      "Création de routes API pour l'inscription, la connexion, l'ajout, la modification et la suppression de livres.",
+      "Gestion des utilisateurs : Implémentation de l'authentification avec mots de passe cryptés pour les utilisateurs.",
+      "Intégration de MongoDB : Utilisation de MongoDB comme base de données pour stocker les informations sur les livres et les utilisateurs.",
+      "Sécurisation de l'API : Mise en place de mécanismes de sécurité pour protéger l'API contre les attaques.",
+      "Respect du Green Code : Conversion des images au format WebP pour réduire le poids et redimensionnement pour minimiser l'impact environnemental.",
+      "Réponse aux requêtes du frontend : Mise en œuvre des fonctionnalités nécessaires pour créer un compte, se connecter, ajouter, supprimer et modifier des livres.",
+      "Gestion des autorisations : Assurer que les utilisateurs ne peuvent modifier que les livres qu'ils ont ajoutés."
+    ]
   }
 ]
